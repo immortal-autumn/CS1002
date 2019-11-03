@@ -1,0 +1,24 @@
+import galapagos.*;
+
+
+public class W01Exercise2 {
+
+	public static void main(String[] args) {
+		DrawingCanvas NW = new DrawingCanvas();
+		Turtle frank = new Turtle(0);
+		Turtle a = new Turtle(0);
+		add(a);
+		add(frank);
+		frank.speed(120);
+		frank.penDown();
+
+		frank.moveTo(0,50);
+
+		frank.turn(135);
+		frank.move(50);
+		frank.turn(135);
+		frank.move(50);
+		frank.penUp();
+	}
+
+}

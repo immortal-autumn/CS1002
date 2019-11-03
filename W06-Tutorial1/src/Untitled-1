@@ -1,0 +1,8 @@
+public class test{
+	public static void main(String args[]){
+		int[][] ints = {{1,1,2},{0,2,9}};
+		for(int a:ints)
+		System.out.print(a);
+	
+	}
+}

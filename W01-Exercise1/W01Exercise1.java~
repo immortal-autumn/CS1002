@@ -1,0 +1,18 @@
+import galapagos.*;
+
+public class W01Exercise1 {
+
+	public static void main(String[] args) {
+		Turtle frank = new Turtle();
+		frank.penDown();
+
+		frank.moveTo(0,2);
+
+		frank.moveTo(2,2);
+		frank.turn(90);
+		frank.move(2);
+		frank.turn(90);
+		frank.move(2);
+	}
+
+}

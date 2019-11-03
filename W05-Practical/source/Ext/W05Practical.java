@@ -1,0 +1,53 @@
+public class W05Practical{
+	public static void main(String[] args){
+		//main method and show convert result
+		EasyIn2 distance = new EasyIn2();
+		Converter converter = new Converter();
+		EasyIn2 reader = new EasyIn2();
+		Converter2 converter2 = new Converter2();
+		System.out.println("Please choose what converter would you like to take?");
+		System.out.println("1.Yard to metre");
+		System.out.println("2.Foot to metre");
+		System.out.println("3.Inch to metre");
+		System.out.println("4.Metre to Yard, Inch and Foot");
+		int menu_choice = reader.getInt();
+		switch (menu_choice) {
+		case 1 : {
+				System.out.println("You chose yard to metre");
+				
+				System.out.println("Enter distance in yards");
+			    int yard = distance.getInt();
+				converter2.yard(yard);
+				break;
+		}
+		case 2 : {
+				System.out.println("You chose foot to metre");
+				System.out.println("Enter distance in foot");
+			    int foot = distance.getInt();
+				converter2.foot(foot);
+				break;
+		}
+		case 3 : {
+				System.out.println("You chose inch to metre");
+				System.out.println("Enter distance in inch");
+			    int inch = distance.getInt();
+				converter2.inch(inch);
+				break;
+		}
+		case 4 : {
+				System.out.println("You chose meter to inch, yard and foot");
+				System.out.println("Enter distance in metres");
+				int meter = distance.getInt();	
+				//int distanceMeter = converter.getMeter();
+				converter.convert(meter);
+				//System.out.println(converter.test);
+				break;
+		}
+		default : {
+			System.out.println("Invalid input!");
+			break;
+		}
+		
+	}
+}
+}

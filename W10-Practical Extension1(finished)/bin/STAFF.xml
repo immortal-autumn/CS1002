@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customer_List>
+	<Wilson id="1">
+		<Application_Type>Education Applicant</Application_Type>
+		<Name>Wilson</Name>
+		<Product_Code>0036</Product_Code>
+		<Latest_Version>1.0.0.0</Latest_Version>
+		<Price>186</Price>
+
+		<Education_Level>Master Degree</Education_Level>
+		<Academic_Discount_Rate>25</Academic_Discount_Rate>
+	</Wilson>
+	<Tomas id="2">
+		<Application_Type>Entertainment Application</Application_Type>
+		<Name>Tomas</Name>
+		<Product_Code>0037</Product_Code>
+		<Latest_Version>1.0.0.0</Latest_Version>
+		<Price>192</Price>
+
+		<Genre>Designed</Genre>
+		<Rating>10</Rating>
+	</Tomas>
+	<Zebra id="3">
+		<Application_Type>Finance Application</Application_Type>
+		<Name>Zebra</Name>
+		<Product_Code>0037</Product_Code>
+		<Latest_Version>1.0.0.0</Latest_Version>
+		<Price>172</Price>
+		<Flag>True</Flag>
+	</Zebra>
+</Customer_List>
+		
